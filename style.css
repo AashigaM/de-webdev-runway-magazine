@@ -1,0 +1,98 @@
+/* Removes the default spacing from all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles the whole webpage */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fcfcfc;
+    color: #111111;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Styles the page header */
+header {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 2px solid #111111;
+}
+
+/* Main title */
+header h1 {
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+}
+
+/* Subtitle below the title */
+.subtitle {
+    font-style: italic;
+    color: #666666;
+    margin-top: 5px;
+}
+
+/* Navigation menu */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+/* Styles all links */
+a {
+    color: #b1274a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Changes the link when the mouse is over it */
+a:hover {
+    color: #111111;
+    text-decoration: underline;
+}
+
+/* Changes the color after the link has been visited */
+a:visited {
+    color: #7a1d33;
+}
+
+/* Main content area */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Adds space between sections */
+section {
+    margin-bottom: 40px;
+}
+
+/* Styles section headings */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Styles the movie rating */
+.rating {
+    font-weight: bold;
+    color: #b1274a;
+    margin-bottom: 5px;
+}
+
+/* Styles the footer */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9rem;
+    color: #666666;
+}
